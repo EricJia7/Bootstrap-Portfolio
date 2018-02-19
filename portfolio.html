@@ -1,110 +1,132 @@
+
+
 <!DOCTYPE html>
 
 <html lang="en">
 
-<head>
+<header>
 
     <meta charset="UTF-8">
-    <title> Eric's Portfolio Page</title>
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" type "text/css" href = "assets/css/style.css">
+    <title> Eric's Website</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="https://getbootstrap.com/docs/3.3/examples/sticky-footer-navbar/sticky-footer-navbar.css" rel="stylesheet">
+
+</header>
 
 
-</head>
+<body >
 
-<body>
-    
-    <ul id = "header_wrapper">
-        <li class="namebox_style">Eric Jia</li>
-        <li><a id="nav-right" href = "contact.html">Contact</a></li>
-        <li><a class="nav" href = "portfolio.html">Portfolio</a></li>
-        <li><a class="nav"href = "index.html">About</a></li>
-    </ul>
+    <nav class = "navbar navbar-default fixed-top">
 
-    <div class = "body_wrapper">
+        <div class = "container">
 
-        <div class ="contactwrapper">
-
-            <div class = "aboutme">
-                Portfolio
-            </div>
-            
-            <div>
-
-                    <div class = "portfolio_list">
-                        <img class="portfolio_img_1" src ="assets/images/project.jpg">
-                        <img class="portfolio_img_2" src ="assets/images/project.jpg">
-                    </div> 
-
-                    <div class = "portfolio_list">
-                        <div class= "tag_1">Hangman</div>
-                        <div class= "tag_2">RPG Game</div>
-                    </div>
-                       
-                    <div class = "portfolio_list">
-                        <img class="portfolio_img_1" src ="assets/images/project.jpg">
-                        <img class="portfolio_img_2" src ="assets/images/project.jpg">
-                    </div> 
-
-                    <div class = "portfolio_list">
-                        <div class= "tag_1">Trivia Game</div>
-                        <div class= "tag_2">Rutgers Info Widget</div>
-                    </div>
-
-                    <div class = "portfolio_list">
-                        <img class="portfolio_img_1" src ="assets/images/project.jpg">
-                        <img class="portfolio_img_2" src ="assets/images/project.jpg">
-                    </div> 
-
-
-                    <div class = "portfolio_list">
-                        <div class= "tag_1">Rock Paper Scissors</div>
-                        <div class= "tag_2">Movie Trailer Wesite</div>
-                    </div>
-
-
-            </div>
+            <div class="navbar-header">
                 
-        </div>
+                <a class = "navbar-brand" style = "font-size:30px;" href = "#" class="col-xs-12" class="col=sm-12"><p>Eric Jia</p></a>
 
-        <div class= "connectwrapper">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarDropdown" aria-expanded="false" aria-controls="navbarDropdown">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
 
-            <div class = "connecttextfont" >
-                Connect With Me
             </div>
 
-            <ul class= "imgwrapper">
-                <li>
-                    <a href = "https://github.com/jiapurdue" target="_blank">
-                    <img class="socialicon" src ="assets/images/github-icon.png"></a>
-                </li>
-            
-                <li>
-                    <a href = "https://github.com/jiapurdue" target="_blank">
-                    <img class="socialicon" src ="assets/images/google_icon.png"></a> 
-                </li>
-            
-                <li>
-                    <a href = "https://www.linkedin.com/in/ericjia/" target="_blank">
-                    <img class="socialicon" src ="assets/images/linkedin_icon.png"></a> 
-                </li>
-            
-                <li>
-                    <a href = "https://stackoverflow.com/users/9127528/guanhua-jia" target="_blank">
-                    <img class="socialicon" src ="assets/images/stackoverflow_icon.png"></a> 
-                </li>
-                            
-            </ul>            
-            
+            <div class="collapse navbar-collapse" id="navbarDropdown">
+                <ul class ="nav navbar-nav navbar-right">
+                    <li class="nav-item active"><a class="nav-link" href="index.html" style = "font-size:20px;" >About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="portfolio.html" style = "font-size:20px;" >Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html" style = "font-size:20px;" >Contact</a></li>
+                </ul>
+            </div>
         </div>
+    </nav>
+    
 
+    <div class="container" >
+        <div class="row">
+            <div class="col-md-8 col-xs-12 col-sm-12">
+                <div class="page-header"><h2>Portfolio</h2></div>
+                <div class="row">
+
+                    <div class="col-md-6 col-xs-12 col-sm-12">
+                        <img class="portfolio_img_1" src ="assets/images/project.jpg" class="img-responsive" style = "max-width: 90%;">
+                        <p class= "tag_1 text-center" style = "background-color:#4aaaa5; max-width: 90%; position:relative; top:-2em;">Hangman</p>
+                    </div>
+                  
+                    <div class="col-md-6 col-xs-12 col-sm-12">
+                        <img class="portfolio_img_1" src ="assets/images/project.jpg" class="img-responsive" style = "max-width: 90%;">
+                        <p class= "tag_1 text-center" style = "background-color:#4aaaa5; max-width: 90%; position:relative; top:-2em;">RPG Game</p>
+                    </div>
+                
+                </div>
+
+                <div class="row">
+
+                    <div class="col-md-6 col-xs-12 col-sm-12">
+                        <img class="portfolio_img_1" src ="assets/images/project.jpg" class="img-responsive" style = "max-width: 90%;">
+                        <p class= "tag_1 text-center" style = "background-color:#4aaaa5; max-width: 90%; position:relative; top:-2em;">Trivia Game</p>
+                    </div>
+
+                    <div class="col-md-6 col-xs-12 col-sm-12">
+                        <img class="portfolio_img_1" src ="assets/images/project.jpg" class="img-responsive" style = "max-width: 90%;">
+                        <p class= "tag_1 text-center" style = "background-color:#4aaaa5; max-width: 90%; position:relative; top:-2em;">Rutgers Info Widget</p>
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col-md-6 col-xs-12 col-sm-12">
+                        <img class="portfolio_img_1" src ="assets/images/project.jpg" class="img-responsive" style = "max-width: 90%;">
+                        <p class= "tag_1 text-center" style = "background-color:#4aaaa5; max-width: 90%; position:relative; top:-2em;">Rock Paper Scissors</p>
+                    </div>
+
+                    <div class="col-md-6 col-xs-12 col-sm-12">
+                        <img class="portfolio_img_1" src ="assets/images/project.jpg" class="img-responsive" style = "max-width: 90%;">
+                        <p class= "tag_1 text-center" style = "background-color:#4aaaa5; max-width: 90%; position:relative; top:-2em;">Movie Trailer Wesite</p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-md-1 col-xs-0 col-sm-0"></div>
+            <div class="col-md-3 col-xs-12 col-sm-12">
+                <div class="row">
+                    <div class="page-header"><h3>Connect with Me</h3></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-xs-2 col-sm-1" c>
+                        <a href = "https://github.com/jiapurdue" target="_blank"> <img src ="assets/images/github-icon.png" class="img-responsive" style = "max-width: 50px;"></a>
+                    </div>
+                    <div class="col-md-3 col-xs-2 col-sm-1">
+                            <a href = "https://github.com/jiapurdue" target="_blank"><img src ="assets/images/google_icon.png" class="img-responsive" style = "max-width: 50px;"></a> 
+                    </div>
+                    <div class="col-md-3 col-xs-2 col-sm-1">
+                            <a href = "https://www.linkedin.com/in/ericjia/" target="_blank"><img src ="assets/images/linkedin_icon.png" class="img-responsive" style = "max-width: 50px;"></a> 
+                    </div>
+                    <div class="col-md-3 col-xs-2 col-sm-1">
+                            <a href = "https://stackoverflow.com/users/9127528/guanhua-jia" target="_blank"><img src ="assets/images/stackoverflow_icon.png" class="img-responsive" style = "max-width: 50px;"></a> 
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <footer class = "footerwrapper">
-        <div class = "footerparent">
-            &copy Copyright 2018 Eric Jia
+    <footer class="footer">
+        <div class = "container">
+            <p class="text-muted" style = "text-align: center;">&copy Copyright 2018 Eric Jia</p>
         </div>
     </footer>
 
 </body>
+
 </html>
